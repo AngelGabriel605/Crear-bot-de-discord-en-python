@@ -7,4 +7,4 @@ bot = commands.Bot(command_prefix="#")
 async def ping(ctx):
   await ctx.send("Pong!")
 
-bot . ejecutar ( "#TOKEN-del-bot")
+bot.run( "#TOKEN-del-bot")
